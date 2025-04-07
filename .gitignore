@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+03_results/**/*.json
+03_results/**/*.xml
+
