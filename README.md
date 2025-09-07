@@ -1,1 +1,40 @@
-# auction_theories
+# **SIA-based Parking Assignment**
+
+In this repository, you can find source codes for the article:
+
+*L. Alekszejenko and T. Dobrowiecki*, "Attitude-driven Simultaneous Online Auctions for Parking Spaces", Infocommunications Journal, 2025. (accepted, not yet published)
+
+Please cite the article as:
+```bibtex
+article{aldt,
+    author = {Levente Alekszejenko and Tadeusz Dobrowiecki},
+    title = {Attitude-driven Simultaneous Online Auctions for Parking Spaces},
+    journal = {Infocommunications Journal},
+    year = {2025},
+    volume = {},
+    pages = {},
+    doi = {},
+    note = {accepted, not yet published}
+}
+```
+
+## Content and Usage
+
+- `01_simulation` contains inputs for simulating a small town's parking.
+- `02_src` contains the source codes, and measurement scripts
+- `03_results` will contain the files created by the scipts
+
+To check the numeric simulations, see the notebook of `02_src/serial_auctions.ipynb`.
+
+## Running the simulation of the small town:
+
+**Prerequisites**
+
+Install [Eclipse SUMO](https://eclipse.dev/sumo/).
+
+**Simulation steps**
+
+0. You can check whether or not the Eclipse SUMO is available on your compter by `02_src/traci_test.ipynb`
+1. Run the cells of the `02_src/setup.ipynb` notebook.
+2. Run the measurement scripts in `02_src` folder: `meas_beta10.sh`, `meas_beta50.sh`, `meas_beta90.sh`, `meas_betaMIX.sh`.
+3. Analyze the results by `02_src/results.ipynb`.
