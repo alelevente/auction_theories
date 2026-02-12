@@ -6,15 +6,15 @@ In this repository, you can find source codes for the article:
 
 Please cite the article as:
 ```bibtex
-article{aldt,
-    author = {Levente Alekszejenko and Tadeusz Dobrowiecki},
+@article{aldt25,
+    author = {L. Alekszejenkó and T. Dobrowiecki},
     title = {Attitude-driven Simultaneous Online Auctions for Parking Spaces},
     journal = {Infocommunications Journal},
-    year = {2025},
-    volume = {},
-    pages = {},
-    doi = {},
-    note = {accepted, not yet published}
+    volume = {XVII},
+    number = {3},
+    pages = {73-83},
+    doi = {10.36244/ICJ.2025.3.9},
+    year = {2025}
 }
 ```
 
