@@ -2,7 +2,7 @@
 
 In this repository, you can find source codes for the article:
 
-*L. Alekszejenko and T. Dobrowiecki*, "Attitude-driven Simultaneous Online Auctions for Parking Spaces", Infocommunications Journal, 2025. (accepted, not yet published)
+*L. Alekszejenko and T. Dobrowiecki*, "Attitude-driven Simultaneous Online Auctions for Parking Spaces", Infocommunications Journal, XVII(3), pp. 73-83, 2025. DOI: 10.36244/ICJ.2025.3.9
 
 Please cite the article as:
 ```bibtex
